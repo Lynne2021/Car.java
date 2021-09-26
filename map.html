@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <style>
+        body{
+            overflow: hidden;
+            margin: 0,auto;
+        }
+        #map{
+            margin-top: 250px;
+            text-align: center;
+            transform: scale(1.8);
+            background-color: rgb(59, 160, 230);   
+        }
+
+        #jinan{
+            position: relative;
+            top: -300px;
+            left: 160px;
+        }
+
+        #xiamen{
+            position: relative;
+            top: -200px;
+            left: 180px;
+        }
+
+        #xian{
+            position: relative;
+            top: -370px;
+            left: 80px;
+        }
+
+        #dunhuang{
+            position: relative;
+            top: -410px;
+            left: -5px;
+        }
+
+        .add{
+            width:20px;
+        }
+
+        #map a{
+            color: cornsilk;
+            text-decoration: none;
+        }
+        
+        .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+            color: cornsilk;
+            }       
+            
+        #map a:hover, .closebtn a:hover {
+            color: #ff9800;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="map">
+            <p id="china"><img src="images/china.png" alt="china map" title="china map"/></p>
+            <p id="jinan"><a href="jinan/home_jinan.html"><img src="images/address.png" alt="jinan" title="jinan" class="add"/>
+            Jinan</a></p>
+            <p id="xiamen"><a href="xiamen/index.html"><img src="images/address.png" alt="xiamen" title="xiamen" class="add"/>
+            Xiamen</a></p>
+            <p id="dunhuang"><a href="dunhuang/Index_Dunhuang.html"><img src="images/address.png" alt="dunhuang" title="dunhuang" class="add"/>
+            Dunhuang</a></p>
+            <p id="xian"><a href="xian/Xian_menu.html"><img src="images/address.png" alt="xian" title="xian" class="add"/>
+            Xi'an</a></p>
+        </div>
+        <a href="index.html" class="closebtn">&times;</a>    
+    </main>
+</body>
+</html>
